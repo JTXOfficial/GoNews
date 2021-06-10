@@ -1,0 +1,7 @@
+main: me.jtx.gonews.GoNews
+name: GoNews
+version: 1.0.0
+
+commands:
+  gonews:
+    description: Shows some information about the plugin and its commands!

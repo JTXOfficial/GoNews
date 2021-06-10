@@ -1,0 +1,9 @@
+main: me.jtx.gonews.GoNews
+name: GoNews
+version: 1.0
+author: JTX
+website: discord.gg
+
+commands:
+  gonews:
+    description: Shows some information about the plugin and its commands!
