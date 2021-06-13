@@ -1,5 +1,19 @@
-# ------------------
-# Plugin created by JTX
-# ------------------
+# GoNews
+# Made by JTX
 
-# Want a new line use %n%
+# Placeholders
+# New Line - %n%
+
+Check-Update:
+  enable: true
+
+Open-Book-Onjoin:
+  #Delay must be in seconds
+  enable: true
+  delay: 1
+
+Message:
+  No-Permission: "&cYou don't have permission to do this!"
+
+book:
+  message: "&6&lMy Message %n%&c&lIs cool"

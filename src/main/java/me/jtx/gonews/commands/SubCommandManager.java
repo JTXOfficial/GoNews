@@ -20,7 +20,6 @@ public class SubCommandManager implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
-        if (sender instanceof Player) {
             Player player = (Player) sender;
             if (args.length == 1) {
                 for (int i = 0; i < getSubCommands().size(); i++) {
@@ -35,7 +34,6 @@ public class SubCommandManager implements CommandExecutor {
                 }
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015&8[ &6GoNews &8]&7\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015"));
             }
-        }
         return true;
     }
 

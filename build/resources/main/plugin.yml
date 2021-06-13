@@ -1,7 +1,17 @@
 main: me.jtx.gonews.GoNews
 name: GoNews
-version: 1.0.0
+version: 1.1
+author: JTX
+website: https://discord.gg/sBGzStgDu6
+description: GoNews is a plugin that allows you to put your own custom message in a book that opens up when a player joins your server.
 
 commands:
   gonews:
     description: Shows some information about the plugin and its commands!
+  news:
+    description: opens up the book
+
+permissions:
+  gonnews.reload:
+    default: op
+    description: Permits usage of the /gonick reload.

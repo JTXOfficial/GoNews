@@ -33,7 +33,7 @@ public class Reload extends SubCommand {
             this.plugin.reloadConfig();
             player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&6&l[GoNews]") + ChatColor.GREEN + " Config Reloaded!");
         } else {
-            player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cYour not allowed to do this!"));
+            player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.plugin.getConfig().getString("Message.No-Permission")));
         }
     }
 }
